@@ -1,0 +1,26 @@
+# Site settings
+title: Dscout Changelog
+email: product@dscout.com
+description: Dscout Product Changelog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# Compile settings
+exclude: [public, Gemfile, Gemfile.lock, Rakefile, vendor, README.md]
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Variables
+data:
+  tags: ""
+  subtitle: ""
+
+navigation:
+  - title: home
+    url: /index.html
+
+sass:
+  style: compressed
+  sass_dir: ../../../assets/stylesheets

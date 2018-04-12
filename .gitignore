@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-metadata
+project.sublime-project
+.DS_Store
+manifest.json
+feed.xml
+package.json
+_site
