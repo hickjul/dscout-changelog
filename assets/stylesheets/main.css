@@ -5,31 +5,23 @@
 
 body {
   font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  background: #F8F8F8;
-  color: #333;
+  background: #FFF;
+  color: #222;
   line-height: 1.4;
   position: relative; }
-  body:before {
-    background: #1D83F6;
-    content: '';
-    display: block;
-    height: 4px;
-    position: fixed;
-    top: 0;
-    width: 100%; }
 
 date {
   display: block; }
 
 a {
-  color: #1D83F6;
+  color: #222;
   text-decoration: none;
-  background-image: linear-gradient(transparent, transparent), linear-gradient(transparent, transparent), linear-gradient(to right, #A5CDFB, #A5CDFB);
+  background-image: linear-gradient(transparent, transparent), linear-gradient(transparent, transparent), linear-gradient(to right, #CCC, #CCC);
   background-position: 120%, 122%, 0 130%;
   background-repeat: no-repeat;
   background-size: 100% 5px; }
   a:hover {
-    background-image: linear-gradient(transparent, transparent), linear-gradient(transparent, transparent), linear-gradient(to right, #1D83F6, #1D83F6); }
+    background-image: linear-gradient(transparent, transparent), linear-gradient(transparent, transparent), linear-gradient(to right, #222, #222); }
 
 main {
   margin: 0 auto;
@@ -50,6 +42,9 @@ h2,
 h3 {
   margin-bottom: 16px; }
 
+h2.color--live {
+  color: #ff2d55; }
+
 date {
   color: #666;
   font-size: .8rem; }
@@ -59,5 +54,35 @@ date {
 
 .intro {
   margin-bottom: 64px; }
+
+.tabs {
+  cursor: default;
+  display: flex;
+  list-style-type: none; }
+  .tabs li {
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    margin-right: 16px;
+    padding: 4px 8px; }
+    .tabs li:hover {
+      border: 1px solid #DDD; }
+
+.diary-bar {
+  background: #1D83F6;
+  display: block;
+  height: 4px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.live-bar {
+  background: #ff2d55;
+  display: block;
+  height: 4px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
