@@ -82,15 +82,27 @@ date {
   display: flex;
   list-style-type: none;
 
-  li {
-    border: 1px solid #CCC;
+  a {
     border-radius: 8px;
-    margin-right: 16px;
-    padding: 4px 8px;
+    border-bottom: 4px solid #DDD;
+    background-color: #F0F0F0;
+    background-image: none;
+    color: $color--body;
+    display: inline-block;
+    padding: 8px 12px;
 
     &:hover {
-      border: 1px solid #DDD;
+      background-color: #F3F3F3;
     }
+
+    &:active {
+      border-bottom: none;
+      transform: translateY(5px);
+    }
+  }
+
+  li {
+    margin-right: 16px;
   }
 }
 
