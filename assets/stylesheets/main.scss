@@ -1,8 +1,9 @@
-$color--dscout: #1D83F6;
-$color--dscout-faint: #A5CDFB;
-$color--body: #222;
-$color--body-faint: #CCC;
-$color--live: #ff2d55;
+$color--dscout       : #1D83F6;
+$color--dscout-faint : #A5CDFB;
+$color--body         : #222;
+$color--body-faint   : #CCC;
+$color--recruit      : #776fc7;
+$color--live         : #ff2d55;
 
 * {
   box-sizing: border-box;
@@ -19,7 +20,10 @@ body {
 }
 
 date {
+  color: #AAA;
   display: block;
+  font-size: .8rem;
+  font-weight: 800;
 }
 
 a {
@@ -64,9 +68,8 @@ h2.color--live {
   color: $color--live;
 }
 
-date {
-  color: #666;
-  font-size: .8rem;
+h2.color--recruit {
+  color: $color--recruit;
 }
 
 .highlight {
@@ -118,6 +121,16 @@ date {
 
 .live-bar {
   background: $color--live;
+  display: block;
+  height: 4px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.recruit-bar {
+  background: $color--recruit;
   display: block;
   height: 4px;
   left: 0;
