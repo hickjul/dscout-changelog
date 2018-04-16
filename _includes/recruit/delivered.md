@@ -1,4 +1,4 @@
-## Features delivered
+### Features Delivered
 
 * New version of Android. Fixes for older devices that are unable to complete http requests. These older android devices, by default, do not send their requests with the required Transport Layer Security protocol version and Diary is discarding their requests.
 
