@@ -4,7 +4,7 @@
   padding: 0; }
 
 body {
-  font: 400 21px 'Space Mono', monospace;
+  font: 400 16px  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   background: #FFF;
   color: #222;
   line-height: 1.4;
@@ -13,16 +13,16 @@ body {
 date {
   color: #AAA;
   display: block;
-  font-size: 18px;
-  font-weight: 800; }
+  font-size: 14px;
+  font-weight: 700; }
 
 a {
   color: #222;
   text-decoration: none;
   background-image: linear-gradient(transparent, transparent), linear-gradient(transparent, transparent), linear-gradient(to right, #CCC, #CCC);
-  background-position: 120%, 122%, 0 130%;
+  background-position: 120%, 122%, 0 140%;
   background-repeat: no-repeat;
-  background-size: 100% 8px; }
+  background-size: 100% 6px; }
   a:hover {
     background-image: linear-gradient(transparent, transparent), linear-gradient(transparent, transparent), linear-gradient(to right, #222, #222); }
 
@@ -43,6 +43,8 @@ hr {
 h1,
 h2,
 h3 {
+  font-family: 'Space Mono', Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-weight: 700;
   margin-bottom: 16px; }
 
 h2.color--live {
