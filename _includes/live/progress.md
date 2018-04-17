@@ -2,5 +2,5 @@
 
 * Stimulus support for Live interviews
   <date>Started: April 11</date>
-* Robust interview scheduling interface
+* A robust interview scheduling interface
   <date>Started: April 11</date>
