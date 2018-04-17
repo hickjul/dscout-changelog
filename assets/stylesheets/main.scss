@@ -12,7 +12,7 @@ $color--live         : #ff2d55;
 }
 
 body {
-  font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 16px 'Space Mono', monospace;
   background: #FFF;
   color: $color--body;
   line-height: 1.4;
@@ -93,6 +93,8 @@ h2.color--recruit {
     color: $color--body;
     display: inline-block;
     padding: 8px 12px;
+    text-align: center;
+    width: 100%;
 
     &:hover {
       background-color: #F3F3F3;
@@ -105,7 +107,11 @@ h2.color--recruit {
   }
 
   li {
-    margin-right: 16px;
+    width: 33.33%;
+
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
   }
 }
 
