@@ -12,7 +12,7 @@ $color--live         : #ff2d55;
 }
 
 body {
-  font: 400 16px 'Space Mono', monospace;
+  font: 400 21px 'Space Mono', monospace;
   background: #FFF;
   color: $color--body;
   line-height: 1.4;
@@ -22,7 +22,7 @@ body {
 date {
   color: #AAA;
   display: block;
-  font-size: .8rem;
+  font-size: 18px;
   font-weight: 800;
 }
 
@@ -32,7 +32,7 @@ a {
   background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, $color--body-faint, $color--body-faint);
 	background-position: 120%, 122%, 0 130%;
   background-repeat: no-repeat;
-  background-size: 100% 5px;
+  background-size: 100% 8px;
 
   &:hover {
     background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, $color--body, $color--body);
