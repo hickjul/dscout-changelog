@@ -1,5 +1,7 @@
 ### Features Delivered
 
+* New look for viewer with entry card improvements
+  <date>Launched: Apr 18, 2018</date>
 * Support for multi-part Mission templates
   <date>Launched: Apr 17, 2018</date>
 * A fix that alleviates some issues when deleting entries
