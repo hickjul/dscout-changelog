@@ -1,5 +1,3 @@
-<h2 class="highlight">Dscout Diary Release Notes</h2>
-
 {% include diary/delivered.md %}
 
 <hr />

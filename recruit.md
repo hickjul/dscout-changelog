@@ -6,6 +6,6 @@ layout: default
 
 {% include header.html %}
 
-<h2 class="color--recruit">Dscout Recruit Release Notes</h2>
+<h2 class="color--recruit">dscout Recruit Release Notes</h2>
 
 {% include recruit/index.md %}
