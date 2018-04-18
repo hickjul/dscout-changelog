@@ -4,7 +4,8 @@ email: product@dscout.com
 description: Dscout Product Changelog
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-
+author: "Jules Simplicio <jules@dscout.com>"
+contributors: [ Julia Hickey <julia@dscout.com> ]
 # Compile settings
 exclude: [public, Gemfile, Gemfile.lock, Rakefile, vendor, README.md]
 
